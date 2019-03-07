@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS Test</title>
+        <style>
+            #header > h1 {color:blue;}
+            #section > h1 {color:orange;}
+            table > tbody > tr > th {color:red;}
+            #header h1:hover {color:red;}
+            #header h1:active {color:green;}
+        </style>
+    </head>
+    <body>
+        <h1>반응 선택자</h1>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+            </tr>
+            <tr>
+                <th>Hong</th>
+                <th>Seoul</th>
+            </tr>
+        </table>
+        <div id="header">
+            <h1 class="title">CSS 후손 선택자</h1>
+            <div id="nav">
+                <h1>Navigation</h1>
+            </div>
+        </div>
+        <h2>일반 내용</h2>
+        <div id="section">
+            <h1 class="title">CSS 후손 선택자</h1>
+            <p>CSS 후손 선택자는 특정한 태그의 후손을 선택할 때 사용</p>
+        </div>
+    </body>
+</html>

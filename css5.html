@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS Test</title>
+        <style>
+            input:enabled {background-color:white;}
+            input:disabled {background-color:gray;}
+            input:focus {background-color:orange;}
+            /*
+            ul {overflow:hidden;}
+            li {list-style:none; float:left; padding:15px;}
+            li:first-child {border-radius: 10px 0 0 10px;}
+            li:last-child {border-radius: 0 10px 10px 0;}
+            li:nth-child(2n) {background-color:blue;}
+            li:nth-last-child(2n+1) {background-color:red;}
+*/
+            li:first-child > a {color:red;}
+        </style>
+    </head>
+    <body>
+        <h1>구조 선택자</h1>
+        <hr>
+        <ul>
+            <li><a href="#">첫 번째</a></li>
+            <li><a href="#">두 번째</a></li>
+            <li><a href="#">세 번째</a></li>
+            <li><a href="#">네 번째</a></li>
+            <li><a href="#">다섯 번째</a></li>
+            <li><a href="#">여섯 번째</a></li>
+            <li><a href="#">일곱 번째</a></li>
+        </ul>
+        <h1>상태 선택자</h1>
+        <hr>
+        <h2>사용 가능</h2>
+        <input>
+        <h2>사용 불가능</h2>
+        <input disabled="disabled">
+    </body>
+</html>

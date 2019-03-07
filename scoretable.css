@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin: 0px;
+    padding: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+caption {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    text-align: left;
+    width: 120px;
+    line-height: 25px;
+}
+
+input {
+    display: inline-block;
+    width: 160px;
+}
+
+#in-scoreinfo {
+    margin-top: 10px;
+}
+
+#pn-scoretable {
+    margin-top: 50px;
+}
+
+#pn-sortScoretable {
+    margin-top: 50px;
+}
+
+#btn-save {
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#btn-search {
+    width: 160px;
+    margin: 5px;
+}

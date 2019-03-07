@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Input Form</title>
+    </head>
+    <body>
+        <h1>HTML5 요소 데모 화면</h1>
+        <hr>
+        <form action="adduser.jsp" method="post">
+            이름 : <input type="text" name="name"><br>
+            이메일 : <input type="email" name="email" required><br>
+            웹사이트 : <input type="text" name="site"><br>
+            정수 : <input type="number" min="0" max="10" step="1" value="" name="n"><br>
+            범위 : <input type="range"  min="0" max="10" value=""><br>
+            메시지 :
+            <textarea name="comment" rows="3" cols="20"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

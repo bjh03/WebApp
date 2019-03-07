@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>WEB - HTML</title>
+        <meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="scoretable.css" />
+    </head>
+    <body>
+        <h1>성적 처리 Web</h1>
+        <center>
+        <div id="in-scoreinfo">
+            <form>
+                <ul>
+                    <li>
+                        <label for="txt-name">이름</label>
+                        <input type="text" id="txt-name" autofocus />
+                    </li>
+                    <li>
+                        <label for="btn_searhch"></label>
+                        <input type="button" id="btn-search" value="검색" onclick="search_student()" />
+                    </li>
+                    <li>
+                        <label for="txt-subject1">과목1 점수</label>
+                        <input type="text" id="txt-subject1" />
+                    </li>
+                    <li>
+                        <label for="txt-subject2">과목2 점수</label>
+                        <input type="text" id="txt-subject2" />
+                    </li>
+                    <li>
+                        <label for="txt-subject3">과목3 점수</label>
+                        <input type="text" id="txt-subject3" />
+                    </li>
+                </ul>
+                <input type="button" id="btn-save" value="저장" onclick="input_student()" />
+            </form>
+        </div>
+        <div id="pn-scoretable">
+            <table id="scoretable-input" border="1" >
+            </table>
+        </div>
+        <div id="pn-sortScoretable">
+            <table id="scoretable-average" border="1" >
+            </table>
+        </div>
+        <script src="scoretable.js"></script>
+    </body>
+</html>

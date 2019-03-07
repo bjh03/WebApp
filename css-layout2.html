@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS Layout Basic</title>
+        <style>
+            body{width:500px; margin:10px auto;}
+            #middle{overflow:hidden;}
+            #left{float:left; width:150px; background:red;}
+            #right{float:right; width:350px; background:blue;}
+            #top{background:green;}
+            #bottom{background:purple;}
+            .top_bar{background:blue; font-size:32px; text-align:center; position:fixed; left:0; top:0; right:0; height:50px;}
+            .left_bar{background:yellow; font-size:small; position:fixed; left:0; top:50px; bottom:0; width:50px;}
+        </style>
+    </head>
+    <body>
+        <div class="top_bar">Top bar</div>
+        <div class="left_bar">Left bar</div>
+        <div id="top">Web Page top</div>
+        <div id="middle">
+            <div id="left">Web Page middle left</div>
+            <div id="right">Web Page middle right</div>
+        </div>
+        <div id="bottom">Web Page bottom</div>
+    </body>
+</html>
